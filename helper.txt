@@ -1,0 +1,12 @@
+Flask alias:
+Set-Alias flask C:\Users\wiert\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\Scripts\flask.exe
+
+To run flask, set environment variables:
+
+$env:FLASK_APP = 'flaskr'
+$env:FLASK_ENV = 'development'
+
+
+To run flask:
+
+flask run
