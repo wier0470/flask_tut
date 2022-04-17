@@ -1,0 +1,14 @@
+# Setup for flask
+
+#$env:FLASK_APP=hello
+$env:FLASK_APP=tut
+$env:FLASK_ENV='development'
+
+Set-Alias -Name flask -Value C:\Users\wiert\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\Scripts\flask.exe
+
+# Run flask with:
+#   flask run
+# Access with http://127.0.0.1:5000
+# or
+#   flask run -p <portnr>
+# To use port 5001: Access with http://127.0.0.1:portnr
